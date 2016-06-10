@@ -117,6 +117,6 @@ int main(int argc, char** argv) {
         }
     }
 
-    printf("Done, inspect me!\n");
+    printf("Done, inspect me. PID: %d\n", getpid());
     sleep(-1);
 }
