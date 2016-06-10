@@ -1,3 +1,3 @@
 all:
-	gcc -std=c99 -o numa numa.c -lnuma
+	gcc -std=gnu99 -o numa numa.c -lnuma
 
