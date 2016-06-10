@@ -30,10 +30,10 @@ Multiple commands will be executed in the order the are specified.
 NUMA nodes: 2
 CPU bound to nodes 0
 Memory bound to nodes 1
-Allocating 1 MiB in chunks of 50 MiB.
+Allocating 50 MiB in chunks of 1 MiB.
 ..................................................
 Memory bound to nodes 0
-Allocating 1 MiB in chunks of 100 MiB.
+Allocating 100 MiB in chunks of 1 MiB.
 ....................................................................................................
 Done, inspect me. PID: 54261
 ```

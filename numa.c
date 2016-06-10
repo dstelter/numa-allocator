@@ -97,7 +97,7 @@ int main(int argc, char** argv) {
                 fprintf(stderr, "Illegal blocksize.\n");
                 return 1;
             }
-            printf("Allocating %d MiB in chunks of %d MiB.\n", blocksize, total);
+            printf("Allocating %d MiB in chunks of %d MiB.\n", total, blocksize);
             blocksize *= 1024*1024;
             total *= 1024*1024;
     
